@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36603.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YookhyoProject", "YookhyoProject\YookhyoProject.csproj", "{692EE4F1-9F5F-FFD0-D3AF-275B0274F87D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "솔루션 항목", "솔루션 항목", "{2A3A057F-5D22-31FD-628C-DF5EF75AEF1E}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{692EE4F1-9F5F-FFD0-D3AF-275B0274F87D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{692EE4F1-9F5F-FFD0-D3AF-275B0274F87D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{692EE4F1-9F5F-FFD0-D3AF-275B0274F87D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{692EE4F1-9F5F-FFD0-D3AF-275B0274F87D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {649935BE-0D3D-4D31-A3A9-D5866A9BA1BF}
+	EndGlobalSection
+EndGlobal
