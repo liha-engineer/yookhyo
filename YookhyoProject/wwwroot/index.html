@@ -1,0 +1,51 @@
+﻿<!doctype html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>육효 간단 점보기</title>
+    <link rel="stylesheet" href="../static/css/style.css" />
+    <meta name="description" content="카테고리 선택 후 1–64에서 괘를 뽑아 간단 설명을 보여줍니다." />
+</head>
+<body>
+    <noscript style="display:block;padding:12px;background:#fee;color:#900;text-align:center">
+        이 페이지는 JavaScript가 필요합니다.
+    </noscript>
+
+    <div class="wrap">
+        <h1>육효 간단 점보기</h1>
+        <p class="lead">카테고리 선택 → <strong>1–64</strong> 랜덤으로 괘를 뽑아 설명을 보여줍니다. (ASP.NET Core + JS)</p>
+
+        <div class="card">
+            <label for="cat">카테고리</label>
+            <select id="cat" aria-label="카테고리">
+                <option>금전</option>
+                <option>건강</option>
+                <option>구직</option>
+                <option>소원</option>
+                <option>연애</option>
+                <option>학업</option>
+                <option>가족</option>
+                <option>사업</option>
+            </select>
+
+            <div class="row">
+                <button id="roll-client">클라 랜덤(빠름)</button>
+                <button id="roll-server" class="outline">서버 랜덤(API)</button>
+            </div>
+
+            <div id="out" class="result" hidden>
+                <img id="card" alt="육효 카드 이미지" loading="lazy" decoding="async">
+                <div class="num" id="num"></div>
+                <div class="name" id="name"></div>
+                <div class="desc" id="desc"></div>
+                <div class="tips" id="tips"></div>
+            </div>
+        </div>
+
+        <footer>© LIHA(pink otter) all right reserved. </footer>
+    </div>
+
+    <script type="module" src="../static/js/main.js"></script>
+</body>
+</html>
